@@ -1,0 +1,11 @@
+= AsciiDoc, Gradle, Diagrams, PDF export and PDF-Theme example
+
+This is an configured gradle project for asciidoc. Asciidoc diagrams, simple pdf theme example and gradle tasks for generating pdf and html documents are included.
+
+NOTE: If you want to use plantUML to create class diagrams, you need to install graphviz on your local machine.
+
+All files in `src/docs/asciidoc` will be used to generate the documents.
+
+Simpley use `./gradlew generatePDF` or `./gradlew generateHTML` for document generation.
+
+This is only an example, feel free to use and improve it.
